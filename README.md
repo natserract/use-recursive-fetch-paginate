@@ -39,4 +39,4 @@ npm install use-recursive-fetch-paginate
 
 ## License
 
-This program is free software; it is distributed under an [MIT License](https://github.com/natserract/use-recursive-fetch-paginate/blob/main/LICENSE.md).
+This program is free software; it is distributed under an [MIT License](https://github.com/natserract/use-recursive-fetch-paginate/blob/main/LICENSE).
