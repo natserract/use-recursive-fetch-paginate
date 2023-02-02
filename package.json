@@ -1,5 +1,5 @@
 {
-  "name": "userecursivefetchpaginate",
+  "name": "use-recursive-fetch-paginate",
   "version": "1.0.0",
   "description": "React hook for handling fetch data recursively from paginated api ",
   "main": "./lib/src/index.js",
@@ -9,19 +9,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/natserract/useRecursiveFetchPaginate"
+    "url": "git+https://github.com/natserract/use-recursive-fetch-paginate.git"
   },
   "author": "Natserract <benjaminstwo@gmail.com>",
   "license": "MIT",
   "sideEffects": false,
   "bugs": {
-    "url": "https://github.com/natserract/useRecursiveFetchPaginate/issues"
+    "url": "https://github.com/natserract/use-recursive-fetch-paginate/issues"
   },
-  "homepage": "https://github.com/natserract/useRecursiveFetchPaginate",
-  "dependencies": {},
+  "homepage": "https://github.com/natserract/use-recursive-fetch-paginate",
   "tags": [],
   "keywords": [
-    "userecursivefetchpaginate"
+    "use-recursive-fetch-paginate"
   ],
   "include": [
     "src"
@@ -56,5 +55,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
   }
 }

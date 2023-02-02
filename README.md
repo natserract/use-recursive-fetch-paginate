@@ -1,4 +1,4 @@
-# useRecursiveFetchPaginate
+# use-recursive-fetch-paginate
 
 Data from APIs are commonly paginated. We also have often use cases when we have to fetch all the records from an API. For example, when we want to make data visualizations. Therefore, we have to iteratively fetch all the pages which contain the data we need.
 
@@ -31,12 +31,12 @@ The structure of the call stack is evident when looking at the network requests 
 
 ## Installation
 
-Download the latest [useRecursiveFetchPaginate](https://github.com/natserract/useRecursiveFetchPaginate) from GitHub, or install with npm:
+Download the latest [use-recursive-fetch-paginate](https://github.com/natserract/use-recursive-fetch-paginate) from GitHub, or install with npm:
 
 ```sh
-npm install useRecursiveFetchPaginate
+npm install use-recursive-fetch-paginate
 ```
 
 ## License
 
-This program is free software; it is distributed under an [MIT License](https://github.com/natserract/local-storage-observer/blob/master/LICENSE.md).
+This program is free software; it is distributed under an [MIT License](https://github.com/natserract/use-recursive-fetch-paginate/blob/main/LICENSE.md).
