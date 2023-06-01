@@ -119,6 +119,11 @@ export const useRecursiveFetchPaginate = <R = unknown, T = unknown>(
           }
         }
       } catch (error) {
+        if (params?.debug) {
+          // eslint-disable-next-line no-console
+          console.error('(Debug useRecursiveFetchPaginate) Error: ', error)
+        }
+
         cancelRequest.current = true
       }
     }
@@ -136,14 +141,6 @@ export const useRecursiveFetchPaginate = <R = unknown, T = unknown>(
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chunks.length])
-
-  useEffect(() => {
-    // Use the cleanup function for avoiding a possibly...
-    // ...state update after the component was unmounted
-    return () => {
-      cancelRequest.current = true
-    }
-  }, [])
 
   return [stopLoop.current && chunks.length ? chunks : [], fetchData]
 }
