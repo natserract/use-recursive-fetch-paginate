@@ -119,6 +119,11 @@ export const useRecursiveFetchPaginate = <R = unknown, T = unknown>(
           }
         }
       } catch (error) {
+        if (params?.debug) {
+          // eslint-disable-next-line no-console
+          console.error('(Debug useRecursiveFetchPaginate) Error: ', error)
+        }
+
         cancelRequest.current = true
       }
     }
